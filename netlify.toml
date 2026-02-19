@@ -1,0 +1,3 @@
+[build]
+  command = "apt-get install -y pandoc && python3 scripts/build.py"
+  publish = "public"
