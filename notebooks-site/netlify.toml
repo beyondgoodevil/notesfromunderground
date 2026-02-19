@@ -1,6 +1,7 @@
 [build]
   command = "python3 scripts/build.py"
   publish = "public"
+  base = "."
 
 [build.environment]
   PYTHON_VERSION = "3.11"
