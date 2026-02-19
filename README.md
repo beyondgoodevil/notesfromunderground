@@ -1,7 +1,6 @@
 # My Notebooks Site
 
-A personal knowledge base — notes on books, ideas, and research — published to the web.
-Modelled on [bactra.org/notebooks](https://bactra.org/notebooks).
+My personal knowledge base — notes on books, ideas, and research — published to the web.
 
 ## How It Works
 
