@@ -1,11 +1,11 @@
 ---
-title: Monad
+title: Monad Lecture
 date: 18 Feb 2026 21:14
 ---
 
 # Monad
 
-Video: https://youtu.be/d9AW5kg2Vms?si=gGDzjOdhzJTIrpA3
+[Lecture](https://youtu.be/d9AW5kg2Vms?si=gGDzjOdhzJTIrpA3)
 
 - Described as the building blocks of reality
 	- Self-sufficient, indivisible, simple substance.
