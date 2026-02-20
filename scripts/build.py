@@ -15,7 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 NOTEBOOKS_DIR = ROOT / "notebooks"
-PUBLIC_DIR = ROOT / "public"
+PUBLIC_DIR = ROOT / "docs"
 PUBLIC_NOTEBOOKS_DIR = PUBLIC_DIR / "notebooks"
 TEMPLATE = ROOT / "templates" / "notebook.html"
 INDEX_TEMPLATE = ROOT / "templates" / "index.html"
@@ -66,7 +66,7 @@ def get_title_and_date(md_path):
 
 
 def build_notebook(md_path):
-    """Convert a single .md file to HTML in public/notebooks/."""
+    """Convert a single .md file to HTML in docs/notebooks/."""
     title, date_str = get_title_and_date(md_path)
     out_name = md_path.stem + ".html"
     out_path = PUBLIC_NOTEBOOKS_DIR / out_name
@@ -133,8 +133,8 @@ def main():
             entries.append(result)
 
     build_index(entries)
-    print(f"\n✅ Done! {len(entries)} notebooks built → public/")
-    print("   Open public/index.html in your browser, or deploy the public/ folder to Netlify.\n")
+    print(f"\n✅ Done! {len(entries)} notebooks built → docs/")
+    print("   Open docs/index.html in your browser, or deploy the docs/ folder to Netlify.\n")
 
 
 if __name__ == "__main__":
